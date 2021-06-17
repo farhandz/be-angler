@@ -18,6 +18,20 @@ components:
         email: fake@example.com
         name: fake name
         role: user
+        
+    Events:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        location:
+          type: string
+      example:
+        id: 5ebac534954b54139806c112
+        name: manicing mania
+        location: tegal
 
     Token:
       type: object
